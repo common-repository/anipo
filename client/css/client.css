@@ -1,0 +1,15 @@
+.anipo-order-barcode {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.anipo-order-barcode h3 {
+    margin-bottom: 10px;
+}
+
+.anipo-order-barcode a {
+    color: #0071a1;
+    text-decoration: underline;
+}

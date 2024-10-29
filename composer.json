@@ -1,0 +1,10 @@
+{
+    "require": {
+        "morilog/jalali": "^3.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.0"
+        }
+    }
+}

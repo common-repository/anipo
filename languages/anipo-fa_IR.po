@@ -1,0 +1,134 @@
+# Copyright (C) 2024 Middle East Varkan Programmers Company
+# This file is distributed under the same license as the Anipo plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Anipo 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/anipo\n"
+"POT-Creation-Date: 2024-09-01T10:52:36+02:00\n"
+"PO-Revision-Date: 2024-09-01 12:25+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Domain: anipo\n"
+
+#. Plugin Name of the plugin
+#: anipo.php admin/anipo-admin-menu.php:36
+msgid "Anipo"
+msgstr "آنیپو"
+
+#. Plugin URI of the plugin
+#: anipo.php
+msgid "https://anipo.ir/"
+msgstr "https://anipo.ir/"
+
+#. Description of the plugin
+#: anipo.php
+msgid "A plugin for Anipo shops"
+msgstr "افزونه ای برای فروشگاه های آنیپو"
+
+#. Author of the plugin
+#: anipo.php
+msgid "Middle East Varkan Programmers Company"
+msgstr "شرکت برنامه سازان ورکان خاورمیانه"
+
+#. Author URI of the plugin
+#: anipo.php
+msgid "https://varkan.ir/"
+msgstr "https://varkan.ir/"
+
+#: admin/anipo-admin-menu.php:46 admin/anipo-admin-menu.php:47
+msgid "Register"
+msgstr "اتصال اولیه"
+
+#: admin/anipo-admin-menu.php:55 admin/anipo-admin-menu.php:56
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: admin/anipo-admin-menu.php:100 admin/anipo-admin-menu.php:123
+#: admin/view/anipo-admin-barcode-modal.php:14
+msgid "Get Barcode"
+msgstr "صدور بارکد"
+
+#: admin/anipo-admin-menu.php:101 admin/anipo-admin-menu.php:141
+#: client/anipo-client.php:29
+msgid "Barcode"
+msgstr "کد رهگیری"
+
+#: admin/anipo-admin-menu.php:125
+msgid "Print Barcode"
+msgstr "چاپ بارکد"
+
+#: admin/view/anipo-admin-barcode-modal.php:9
+msgid "Barcode Form"
+msgstr "فرم صدور بارکد"
+
+#: admin/view/anipo-admin-barcode-modal.php:11
+msgid "Order Weight (grams)"
+msgstr "وزن مرسوله (گرم)"
+
+#: admin/view/anipo-admin-barcode-modal.php:16
+msgid "Close"
+msgstr "بستن"
+
+#: admin/view/anipo-admin-register-page.php:27
+msgid "Register Form"
+msgstr "فرم اتصال اولیه"
+
+#: admin/view/anipo-admin-register-page.php:29
+msgid "Enter the keyword"
+msgstr "کلمه کلیدی را وارد کنید"
+
+#: admin/view/anipo-admin-register-page.php:31
+msgid "Connect"
+msgstr "اتصال"
+
+#: admin/view/anipo-admin-register-page.php:38
+msgid "Connected"
+msgstr "اتصال برقرار است"
+
+#: admin/view/anipo-admin-register-page.php:40
+msgid "No Connection"
+msgstr "اتصال برقرار نیست"
+
+#: admin/view/anipo-admin-settings-page.php:16
+msgid "Settings Form"
+msgstr "فرم تنظیمات"
+
+#: admin/view/anipo-admin-settings-page.php:18
+msgid "Show Factor In Print"
+msgstr "نمایش فاکتور در پرینت"
+
+#: admin/view/anipo-admin-settings-page.php:20
+msgid "Submit"
+msgstr "ثبت"
+
+#: anipo.php:88
+msgid "Warning"
+msgstr "اخطار"
+
+#: anipo.php:88
+msgid ""
+"Anipo plugin requires WooCommerce to be active. Please activate WooCommerce "
+"to use this plugin."
+msgstr ""
+"افزونه آنیپو برای فعال بودن به ووکامرس نیاز دارد. لطفا برای استفاده از این "
+"افزونه، ووکامرس را فعال کنید."
+
+#: api/anipo-api.php:86 api/anipo-api.php:160
+msgid "Api Failed"
+msgstr "خطا در برقراری ارتباط"
+
+#: api/anipo-api.php:135
+msgid "Invalid order ID"
+msgstr "شناسه سفارش نامعتبر است"
+
+#~ msgid "Table with Pagination"
+#~ msgstr "جدول با صفحه بندی"
+
+#~ msgid "No data found"
+#~ msgstr "اطلاعاتی یافت نشد"

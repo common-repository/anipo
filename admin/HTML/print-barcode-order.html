@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آنیپو | خدمات پست آنلاین</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="34x34">
+    <link rel="stylesheet" href="../css/print-barcode-order.css">
+    <link rel="stylesheet" href="../css/Fonts.css">
+</head>
+<body>
+<main class="print-barcode-order">
+    <section id="sectionOne" class="section-one">
+        <img id="shop_logo" src="" alt=""/>
+        <div class="section-one-titles">
+            <div class="inline-text">
+                <h5>نام فروشگاه :</h5>
+                <h4 id="shop_name"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>شناسه سفارش : </h5>
+                <h4 id="order_id"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>نشانی اینترنتی :</h5>
+                <h4 id="domain"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>برگه اطلاعات سفارش</h5>
+                <h4></h4>
+            </div>
+        </div>
+    </section>
+    <section id="sectionTwo" class="section-two">
+        <div class="section-two-right">
+            <div class="inline-text" style="grid-column: 1/-1">
+                <h5>گیرنده (خریدار) :</h5>
+                <h4 id="customer_name"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>استان :</h5>
+                <h4 id="customer_state"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>شهر :</h5>
+                <h4 id="customer_city"></h4>
+            </div>
+            <div class="inline-text" style="grid-column: 1/-1">
+                <h5>آدرس :</h5>
+                <h4 id="customer_address"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>کدپستی :</h5>
+                <h4 id="customer_postcode"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>تلفن :</h5>
+                <h4 id="customer_call_number"></h4>
+            </div>
+        </div>
+        <div class="section-two-left">
+            <div class="inline-text" style="grid-column: 1/-1">
+                <h5>فرستنده (فروشگاه) :</h5>
+                <h4 id="shopName"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>استان :</h5>
+                <h4 id="shop_state"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>شهر :</h5>
+                <h4 id="shop_city"></h4>
+            </div>
+            <div class="inline-text" style="grid-column: 1/-1">
+                <h5>آدرس :</h5>
+                <h4 id="shop_address"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>کدپستی :</h5>
+                <h4 id="shop_postcode"></h4>
+            </div>
+            <div class="inline-text">
+                <h5>تلفن :</h5>
+                <h4 id="shop_callNumber"></h4>
+            </div>
+        </div>
+    </section>
+    <ul id="productTable" class="product-table"></ul>
+    <section id="sectionThree" class="section-three">
+        <div class="box-border inline-text">
+            <h5>نوع پرداخت :</h5>
+            <h4>آنلاین - کارتی</h4>
+        </div>
+        <div class="box-border inline-text">
+            <h4>نیاز به دریافت وجه نیست</h4>
+        </div>
+    </section>
+    <hr class="hr-line"/>
+    <section id="sectionFive" class="section-five">
+        <div class="section-five-right">
+            <div class="box-border reject-box">
+                <h4 style="grid-column: 1/-1">علت برگشتی :</h4>
+                <div class="inline-text">
+                    <div class="check-box"></div>
+                    <h6>عدم اطلاع از سفارش</h6>
+                </div>
+                <div class="inline-text">
+                    <div class="check-box"></div>
+                    <h6>نقل مکان</h6>
+                </div>
+                <div class="inline-text">
+                    <div class="check-box"></div>
+                    <h6>عدم وجود وجه نقد/کارت بانکی</h6>
+                </div>
+                <div class="inline-text">
+                    <div class="check-box"></div>
+                    <h6>مغایرت مبلغ فاکتور</h6>
+                </div>
+                <div class="inline-text">
+                    <div class="check-box"></div>
+                    <h6>درخواست بازگشایی</h6>
+                </div>
+                <div class="inline-text">
+                    <div class="check-box"></div>
+                    <h6>تاخیر در ارسال سفارش</h6>
+                </div>
+                <div class="inline-text">
+                    <div class="check-box"></div>
+                    <h6>انصراف از خرید</h6>
+                </div>
+                <div class="inline-text">
+                    <div class="check-box"></div>
+                    <h6>گیرنده شناخته نشد</h6>
+                </div>
+                <div class="inline-text">
+                    <div class="check-box"></div>
+                    <h6>سفارش تکراری</h6>
+                </div>
+                <div class="inline-text">
+                    <div class="check-box"></div>
+                    <h6>سایر موارد ...</h6>
+                </div>
+                <h4 style="grid-column: 1/-1">نام و نام خانوادگی نامه رسان و امضا :</h4>
+            </div>
+            <div class="box-border">
+                <h5>تلفن ارتباط با امور مشتریان شرکت ملی پست 193</h5>
+            </div>
+            <div class="inline-text" style="padding: 0 10px">
+                <h5>مقصد :</h5>
+                <h4 id="province-city"></h4>
+            </div>
+        </div>
+        <div class="section-five-left">
+            <div class="section-five-left-one">
+                <h5 style="font-size: 8px">خدمت تجارت الکترونیک شرکت ملی پست / پیشتاز</h5>
+                <div class="flex-row" style="border-bottom: 1px solid #2a2a2a">
+                    <div class="inline-text">
+                        <h6>مبدا</h6>
+                        <svg width="4" height="6" viewBox="0 0 4 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1L1 3L3 5" stroke="black" stroke-width="0.9" stroke-linecap="round"/>
+                        </svg>
+
+                        <h6 id="shopState"></h6>
+                    </div>
+                    <div class="inline-text">
+                        <h6>سایز بسته</h6>
+                        <svg width="4" height="6" viewBox="0 0 4 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1L1 3L3 5" stroke="black" stroke-width="0.9" stroke-linecap="round"/>
+                        </svg>
+
+                        <h6 id="box_size_id"></h6>
+                    </div>
+                </div>
+                <div class="flex-row" style="border-bottom: 1px solid #2a2a2a">
+                    <div class="inline-text">
+                        <h6>مقصد</h6>
+                        <svg width="4" height="6" viewBox="0 0 4 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1L1 3L3 5" stroke="black" stroke-width="0.9" stroke-linecap="round"/>
+                        </svg>
+
+                        <h6 id="customerState"></h6>
+                    </div>
+                    <div class="inline-text">
+                        <h6>وزن</h6>
+                        <svg width="4" height="6" viewBox="0 0 4 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1L1 3L3 5" stroke="black" stroke-width="0.9" stroke-linecap="round"/>
+                        </svg>
+
+                        <h6 id="weight"></h6>
+                    </div>
+                </div>
+                <div class="flex-row" style="border-bottom: 1px solid #2a2a2a">
+                    <div class="inline-text">
+                        <h6>تاریخ</h6>
+                        <svg width="4" height="6" viewBox="0 0 4 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1L1 3L3 5" stroke="black" stroke-width="0.9" stroke-linecap="round"/>
+                        </svg>
+
+                        <h6 id="barcode_date"></h6>
+                    </div>
+                    <div class="inline-text">
+                        <h6>زمان</h6>
+                        <svg width="4" height="6" viewBox="0 0 4 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1L1 3L3 5" stroke="black" stroke-width="0.9" stroke-linecap="round"/>
+                        </svg>
+
+                        <h6 id="barcode_time"></h6>
+                    </div>
+                </div>
+                <div class="flex-row" style="border-bottom: 1px solid #2a2a2a">
+                    <div class="inline-text">
+                        <h6>کرایه پستی</h6>
+                        <svg width="4" height="6" viewBox="0 0 4 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1L1 3L3 5" stroke="black" stroke-width="0.9" stroke-linecap="round"/>
+                        </svg>
+
+                    </div>
+                    <div class="inline-text">
+                        <h6 id="post_price"></h6>
+                    </div>
+                </div>
+                <div class="flex-row" style="border-bottom: 1px solid #2a2a2a">
+                    <div class="inline-text">
+                        <h6>مالیات کرایه پستی</h6>
+                        <svg width="4" height="6" viewBox="0 0 4 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1L1 3L3 5" stroke="black" stroke-width="0.9" stroke-linecap="round"/>
+                        </svg>
+
+                    </div>
+                    <div class="inline-text">
+                        <h6 id="post_tax"></h6>
+                    </div>
+                </div>
+                <svg id="barcodeSvg"></svg>
+                <h5 id="barcode"></h5>
+            </div>
+            <svg id="barcodeSvg2" class="rt-barcode"></svg>
+            <h3 id="showH3">H</h3>
+        </div>
+    </section>
+</main>
+
+<script src="../js/JsBarcode/JsBarcode.all.min.js"></script>
+<script>
+  let urlParams = new URLSearchParams(window.location.search);
+  let encodedData = urlParams.get('data');
+  let jsonData = JSON.parse(decodeURIComponent(encodedData));
+
+  document.getElementById('shop_logo').src = jsonData?.shop_logo;
+  document.getElementById('shop_name').innerHTML = jsonData?.shop_name;
+  document.getElementById('domain').innerHTML = jsonData?.domain;
+  document.getElementById('order_id').innerHTML = jsonData?.order_id;
+  document.getElementById('shopName').innerHTML = jsonData?.shop_name;
+  document.getElementById('shop_state').innerHTML = jsonData?.shop_state;
+  document.getElementById('shop_city').innerHTML = jsonData?.shop_city;
+  document.getElementById('shop_address').innerHTML = jsonData?.shop_address;
+  document.getElementById('shop_postcode').innerHTML = jsonData?.shop_postcode;
+  document.getElementById('shop_callNumber').innerHTML = jsonData?.shop_call_number;
+  document.getElementById('customer_name').innerHTML = jsonData?.customer_name;
+  document.getElementById('customer_state').innerHTML = jsonData?.customer_state;
+  document.getElementById('customer_city').innerHTML = jsonData?.customer_city;
+  document.getElementById('customer_address').innerHTML = jsonData?.customer_address;
+  document.getElementById('customer_postcode').innerHTML = jsonData?.customer_postcode;
+  document.getElementById('customer_call_number').innerHTML = jsonData?.customer_call_number;
+  document.getElementById('province-city').innerHTML = jsonData?.customer_state + " - " + jsonData?.customer_city;
+  document.getElementById('shopState').innerHTML = jsonData?.shop_state + " - " + jsonData?.shop_city;
+  document.getElementById('box_size_id').innerHTML = jsonData?.box_size_id;
+  document.getElementById('customerState').innerHTML = jsonData?.customer_state + " - " + jsonData?.customer_city;
+  document.getElementById('weight').innerHTML = jsonData?.weight + " گرم ";
+  document.getElementById('barcode_date').innerHTML = jsonData?.barcode_date;
+  document.getElementById('barcode_time').innerHTML = jsonData?.barcode_time;
+  document.getElementById('post_price').innerHTML = jsonData?.post_price + " ريال ";
+  document.getElementById('post_tax').innerHTML = jsonData?.post_tax + " ريال ";
+  document.getElementById('barcode').innerHTML = jsonData?.barcode;
+
+  if (+jsonData?.box_size_id > 3) {
+    document.getElementById('showH3').style.display = "block"
+  }
+
+  if (jsonData?.products.length > 0) {
+    const productTable = document.getElementById("productTable");
+    const li = document.createElement("li");
+    li.innerHTML = `
+        <strong style="width: 50%">نام محصول</strong>
+        <strong style="width: 9%">تعداد</strong>
+        <strong style="width: 13%">قیمت واحد</strong>
+        <strong style="width: 13%">تخفیف</strong>
+        <strong style="width: 13%">مجموع</strong>
+    `;
+    productTable.appendChild(li);
+    jsonData?.products.forEach(product => {
+      const li = document.createElement("li");
+      li.innerHTML = `
+        <h6 style="width: 50%">${product.name}</h6>
+        <h6 style="width: 9%">${product.quantity}</h6>
+        <h6 style="width: 13%">${product.price.toLocaleString()}</h6>
+        <h6 style="width: 13%">${product.discount.toLocaleString()}</h6>
+        <h6 style="width: 13%">${((+product.price - +product.discount) * +product.quantity).toLocaleString()}</h6>
+    `;
+      productTable.appendChild(li);
+    });
+  } else {
+    document.getElementById('productTable').style.display = "none"
+  }
+
+  const barcodeValue = jsonData?.barcode;
+  JsBarcode("#barcodeSvg", barcodeValue, {
+    width: 1,
+    height: 35,
+    displayValue: false,
+    format: "CODE128"
+  });
+
+  JsBarcode("#barcodeSvg2", barcodeValue, {
+    width: 0.8,
+    height: 20,
+    displayValue: false,
+    format: "CODE128"
+  });
+
+  window.onload = function () {
+    window.print();
+  };
+</script>
+</body>
+</html>
